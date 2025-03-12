@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Singing Performances</title>
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f5f5dc; /* Cream beige background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333; /* Dark grey text color for contrast */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  text-align: center;
+}
+
+h1 {
+  color: #333; /* Dark grey title for contrast */
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.image-item {
+  position: relative;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-item .description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.song-list {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.song-list li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.song-list li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.song-list li a:hover {
+  text-decoration: underline;
+}
+
+.youtube-cover {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.youtube-cover img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.youtube-cover a {
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.button {
+  background-color: #228B22;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #f5f5dc;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>My Singing Journey</h1>
+  <div class="image-grid">
+    <div class="image-item">
+      <img src="1000001607.jpg" alt="Image 1">
+      <div class="description">Battle of The Bands 2nd Runner Up 2023</div>
+    </div>
+    <div class="image-item">
+      <img src="1000005008.jpg" alt="Image 2">
+      <div class="description">ASEAN UNESCO</div>
+    </div>
+    <div class="image-item">
+      <img src="466464022_1111569729968645_980989424033456678_n.jpg" alt="Image 3">
+      <div class="description">Battle of The Bands 2023, 2nd Runner Up</div>
+    </div>
+    <div class="image-item">
+      <img src="467184890_2067415663698774_8232358438676329920_n.jpg" alt="Image 4">
+      <div class="description">Battle of The Bands 2024, Champion</div>
+    </div>
+    <div class="image-item">
+      <img src="467471195_2009837062848584_5394382859750213046_n.jpg" alt="Image 5">
+      <div class="description">Opening Brigada Performance 2023</div>
+    </div>
+    <div class="image-item">
+      <img src="467479548_942701237759914_3601449312194256003_n.jpg" alt="Image 6">
+      <div class="description">English Month</div>
+    </div>
+    <div class="image-item">
+      <img src="465875694_932261965035444_2621867697293410_n.jpg" alt="Image 7">
+      <div class="description">11th Recognition Performance</div>
+    </div>
+    <div class="image-item">
+      <img src="466808120_8650918755027594_8062192556529877503_n.jpg" alt="Image 8">
+      <div class="description">MVP Talent Portion</div>
+    </div>
+    <div class="image-item">
+      <img src="Jalea.jpg" alt="Image 9">
+      <div class="description">Ibong Adarna Champion</div>
+    </div>
+  </div>
+  <ul class="song-list">
+    <li><a href="https://youtu.be/pyGYLkOhx98?si=dOPwAhFs0BJ197MZ">Kupido - Cover by Asterismo (live) "Battle of the Bands"</a></li>
+  </ul>
+  <div class="youtube-cover">
+    <img src="https://i.ytimg.com/vi/pyGYLkOhx98/hqdefault.jpg" alt="YouTube Cover">
+    <a href="https://youtu.be/pyGYLkOhx98?si=dOPwAhFs0BJ197MZ">Visit my channel</a>
+  </div>
+  <a href="portfolio.html" class="button">Go Back</a>
+</div>
+</body>
+</html>
