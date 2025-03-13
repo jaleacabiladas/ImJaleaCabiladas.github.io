@@ -24,7 +24,7 @@
       <p>Welcome to my portfolio! I'm excited to share my journey with you.</p>
       <a href="about.html" class="button">Learn More</a>
     </div>
-    <img src="IMG_4006.jpeg" alt="Hero Image">
+    <img src="484198987_1324494905441318_8971996831387989992_n.jpg" alt="Hero Image">
   </section>
 
   <footer>
